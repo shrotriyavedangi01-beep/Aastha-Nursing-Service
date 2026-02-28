@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aastha Nursing Service — Services</title>
+  <meta name="description" content="Explore Aastha Nursing Service: personal ICU at home, nursing care, and physiotherapy across Delhi NCR." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="fab" id="waFab" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <span class="fab__icon" aria-hidden="true">💬</span>
+    <span class="fab__text">WhatsApp</span>
+  </a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Aastha Nursing Service home">
+        <span class="brand__mark" aria-hidden="true">+</span>
+        <span class="brand__name">Aastha Nursing Service</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="icon-btn nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="services.html">Services</a></li>
+          <li><a class="nav__link" href="equipment.html">Equipment</a></li>
+          <li><a class="nav__link" href="areas.html">Areas</a></li>
+          <li><a class="nav__link" href="why-us.html">Why Us</a></li>
+          <li class="nav__cta"><a class="btn btn--primary" href="contact.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero__box">
+        <p class="breadcrumbs"><a href="index.html">Home</a> / Services</p>
+        <h1 class="page-title">Our Core Services</h1>
+        <p class="page-sub">Complete care at home: ICU setups, skilled nursing, and physiotherapy.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="chips">
+          <a class="chip" href="#icu">ICU at Home</a>
+          <a class="chip" href="#nursing">Nursing Care</a>
+          <a class="chip" href="#physio">Physiotherapy</a>
+          <a class="chip" href="#attendant">Attendant Care</a>
+          <a class="chip" href="#elder">Elder Care</a>
+          <a class="chip" href="#motherbaby">Mother & Baby Care</a>
+          <a class="chip" href="#doctor">Doctor on Call</a>
+          <a class="chip" href="#equipment">Medical Equipment</a>
+        </div>
+        <div class="grid three">
+          <div class="card pad">
+            <img class="card__img" src="assets/setup-icu-at-home.jpg" alt="ICU setup at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🏥</div>
+            <h3>Personal ICU at Home</h3>
+            <p class="muted">Complete ICU setup with ventilator, monitoring, and expert staff for critical care at home.</p>
+            <div class="divider"></div>
+            <p class="small muted">Includes: Ventilator, monitors, infusion pumps, suction, oxygen, and trained ICU staff.</p>
+            <a class="btn btn--ghost" href="#icu">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/nursing-care.jpg" alt="Nurse providing care at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🧑‍⚕️</div>
+            <h3>Nursing Care</h3>
+            <p class="muted">Injections, IV/IM, dressing, vitals monitoring, post-operative care, catheter/NG tube management.</p>
+            <div class="divider"></div>
+            <p class="small muted">Home visits by certified nurses with protocols and hygiene standards.</p>
+            <a class="btn btn--ghost" href="#nursing">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/physiotherapy.avif" alt="Physiotherapy at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🧘</div>
+            <h3>Physiotherapy</h3>
+            <p class="muted">Rehabilitation, pain management, post-injury recovery, and mobility improvement plans.</p>
+            <div class="divider"></div>
+            <p class="small muted">Delivered by experienced physiotherapists at your home.</p>
+            <a class="btn btn--ghost" href="#physio">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/attendant.jpg" alt="Attendant care" loading="lazy" />
+            <div class="icon" aria-hidden="true">🤝</div>
+            <h3>Attendant Care</h3>
+            <p class="muted">Trained attendants for daily living assistance: hygiene, feeding, mobility, and companionship.</p>
+            <div class="divider"></div>
+            <p class="small muted">Available in 12/24-hour shifts with supervision.</p>
+            <a class="btn btn--ghost" href="#attendant">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/elder-care.jpg" alt="Elder care at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">👵</div>
+            <h3>Elder Care</h3>
+            <p class="muted">Compassionate care plans for seniors: medication reminders, vitals, safety and routines.</p>
+            <div class="divider"></div>
+            <p class="small muted">Dementia-friendly support on request.</p>
+            <a class="btn btn--ghost" href="#elder">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/mother-and-baby.webp" alt="Mother and baby care" loading="lazy" />
+            <div class="icon" aria-hidden="true">👶</div>
+            <h3>Mother & Baby Care</h3>
+            <p class="muted">Postnatal mother care, newborn care, lactation support, and hygiene guidance at home.</p>
+            <div class="divider"></div>
+            <p class="small muted">Custom schedules and day/night support.</p>
+            <a class="btn btn--ghost" href="#motherbaby">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/doctor-on-call.webp" alt="Doctor on call" loading="lazy" />
+            <div class="icon" aria-hidden="true">🩺</div>
+            <h3>Doctor on Call</h3>
+            <p class="muted">Home doctor visits for checkups, prescriptions, and care plans. Teleconsults available.</p>
+            <div class="divider"></div>
+            <p class="small muted">Coordinated with your nursing plan if needed.</p>
+            <a class="btn btn--ghost" href="#doctor">View Details</a>
+          </div>
+
+          <div class="card pad">
+            <img class="card__img" src="assets/medical-equipment.avif" alt="Medical equipment buy or rent" loading="lazy" />
+            <div class="icon" aria-hidden="true">🛠️</div>
+            <h3>Medical Equipment</h3>
+            <p class="muted">High-quality, sanitized equipment on rent or to buy for home care needs.</p>
+            <div class="divider"></div>
+            <a class="btn btn--ghost" href="#equipment" style="margin-top:8px;">View Details</a>
+          </div>
+        </div>
+        <div class="callout" style="margin-top:20px;">
+          <div>
+            <h3>Need medical equipment too?</h3>
+            <p class="muted">We provide sanitized ventilators, beds, and more on rent or to buy.</p>
+          </div>
+          <div class="callout__actions">
+            <a class="btn btn--ghost" href="equipment.html">View Equipment</a>
+            <a class="btn btn--primary" href="contact.html">Book Consultation</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="icu" class="anchor"></div>
+        <div class="section__head">
+          <h2>Personal ICU at Home</h2>
+          <p>Hospital-grade monitoring and support delivered at home by trained staff.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Ventilator, multiparameter monitor, infusion pumps, suction, oxygen</li>
+              <li>24/7 duty by trained ICU nurse or team, as required</li>
+              <li>Vitals monitoring and documentation</li>
+              <li>Hygiene and infection-control protocols</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Critical care at home when hospital stay is not feasible</li>
+              <li>Long-term ventilation and step-down care</li>
+              <li>Close monitoring post-ICU discharge</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Set up ICU at Home</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="nursing" class="anchor"></div>
+        <div class="section__head">
+          <h2>Nursing Care</h2>
+          <p>Skilled procedures and daily care by certified nurses.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Injections (IV/IM/SC) and medication administration</li>
+              <li>IV line, catheter and NG tube care</li>
+              <li>Wound dressing and post-operative care</li>
+              <li>Vitals monitoring and documentation</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Post-surgery recovery at home</li>
+              <li>Chronic condition management and routine procedures</li>
+              <li>Short- or long-term daily nursing support</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Book a Nurse</a>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section">
+      <div class="container">
+        <div id="physio" class="anchor"></div>
+        <div class="section__head">
+          <h2>Physiotherapy</h2>
+          <p>Personalized rehab programs for recovery and pain management.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Assessment and goal setting</li>
+              <li>Strengthening, mobility and balance exercises</li>
+              <li>Pain management and posture correction</li>
+              <li>Home routines and progress tracking</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Post-surgery and post-injury rehabilitation</li>
+              <li>Back, neck, and joint pain</li>
+              <li>Neurological or age-related mobility issues</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Schedule Physiotherapy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="attendant" class="anchor"></div>
+        <div class="section__head">
+          <h2>Attendant Care</h2>
+          <p>Daily assistance by trained attendants to support comfortable living at home.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Hygiene support, bathing, grooming</li>
+              <li>Feeding and meal assistance</li>
+              <li>Mobility, repositioning, and transfers</li>
+              <li>Companionship and routine management</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Bedridden or limited-mobility patients</li>
+              <li>Elderly needing ADL support</li>
+              <li>Post-surgery daily assistance</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Book Attendant</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="elder" class="anchor"></div>
+        <div class="section__head">
+          <h2>Elder Care</h2>
+          <p>Compassionate and dignified care for seniors at home.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Medication reminders and vitals</li>
+              <li>Safety checks and fall prevention</li>
+              <li>Dementia-friendly routines</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Seniors living alone needing daily support</li>
+              <li>Memory care and routine management</li>
+              <li>Families seeking compassionate companionship</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Plan Elder Care</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="motherbaby" class="anchor"></div>
+        <div class="section__head">
+          <h2>Mother & Baby Care</h2>
+          <p>Support for new mothers and newborns with hygiene and feeding guidance.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Mother recovery assistance and hygiene</li>
+              <li>Newborn care and safe routines</li>
+              <li>Lactation guidance by experienced staff</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Post-delivery recovery at home</li>
+              <li>First-time parents seeking guidance</li>
+              <li>Night support for newborn care</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Get Mother & Baby Care</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="doctor" class="anchor"></div>
+        <div class="section__head">
+          <h2>Doctor on Call</h2>
+          <p>At-home consultations and prescriptions by qualified doctors.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Home consultations and prescriptions</li>
+              <li>Care plan reviews and updates</li>
+              <li>Teleconsult options available</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Routine checkups without hospital visits</li>
+              <li>Patients with limited mobility</li>
+              <li>Coordinated care with nursing and physio</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--primary" href="contact.html">Request a Doctor</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="equipment" class="anchor"></div>
+        <div class="section__head">
+          <h2>Medical Equipment</h2>
+          <p>Rent or buy sanitized equipment delivered and installed at home.</p>
+        </div>
+        <div class="grid two">
+          <div class="card pad">
+            <h3>What’s included</h3>
+            <ul class="list">
+              <li>Ventilator, oxygen concentrator, monitors, suction</li>
+              <li>Medical beds, wheelchair, walker and more</li>
+              <li>Delivery, installation and basic training</li>
+            </ul>
+          </div>
+          <div class="card pad">
+            <h3>Best for</h3>
+            <ul class="list">
+              <li>Long-term care at home after discharge</li>
+              <li>Respiratory support and mobility aids</li>
+              <li>Safe recovery at home with the right setup</li>
+            </ul>
+            <div class="divider"></div>
+            <a class="btn btn--ghost" href="equipment.html">Browse Equipment</a>
+            <a class="btn btn--primary" href="contact.html" style="margin-left:8px;">Talk to Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--footer"><span class="brand__mark" aria-hidden="true">+</span><span class="brand__name">Aastha Nursing Service</span></div>
+        <p class="muted">Home nursing & patient care services across Delhi NCR.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="services.html">Services</a><a href="equipment.html">Equipment</a><a href="areas.html">Areas</a><a href="why-us.html">Why Us</a>
+      </div>
+
+      <div class="footer__meta muted">
+        © <span id="year"></span> Aastha Nursing Service
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

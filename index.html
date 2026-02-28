@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aastha Nursing Service — Home ICU, Nursing & Physiotherapy</title>
+  <meta name="description" content="Aastha Nursing Service provides home ICU setups, professional nursing care, and physiotherapy with 24/7 support across Delhi NCR." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+  <!-- WhatsApp Floating Button -->
+  <a class="fab" id="waFab" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <span class="fab__icon" aria-hidden="true">💬</span>
+    <span class="fab__text">WhatsApp</span>
+  </a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Aastha Nursing Service home">
+        <span class="brand__mark" aria-hidden="true">+</span>
+        <span class="brand__name">Aastha Nursing Service</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="icon-btn nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="services.html">Services</a></li>
+          <li><a class="nav__link" href="equipment.html">Equipment</a></li>
+          <li><a class="nav__link" href="areas.html">Areas</a></li>
+          <li><a class="nav__link" href="why-us.html">Why Us</a></li>
+          <li class="nav__cta"><a class="btn btn--primary" href="contact.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home Hero ONLY -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill">
+            <span class="pill__dot" aria-hidden="true"></span>
+            24/7 Support • Trusted Home Care • Delhi NCR
+          </p>
+
+          <h1 class="hero__title" id="heroTitle">Complete ICU & Nursing Care at Home</h1>
+          <p class="hero__sub" id="heroSub">Personal ICU setup, skilled nursing, and physiotherapy for safe recovery.</p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary btn--lg" href="contact.html">Get a Call Back</a>
+            <a class="btn btn--ghost btn--lg" href="services.html">View Services</a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="meta">
+              <div class="meta__k">Call</div>
+              <a class="meta__v" href="tel:+919310626469">+91 93106 26469</a>
+            </div>
+            <div class="meta">
+              <div class="meta__k">Call</div>
+              <a class="meta__v" href="tel:+918851508505">+91 88515 08505</a>
+            </div>
+            <div class="meta">
+              <div class="meta__k">Email</div>
+              <a class="meta__v" href="mailto:aasthanursingservices1@gmail.com">aasthanursingservices1@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="card hero__card" aria-label="Quick info card">
+          <div class="card__head">
+            <div class="badge">Aastha Nursing Service</div>
+            <span class="chip">Fast Response</span>
+          </div>
+
+          <div class="card__body">
+            <div class="mini">
+              <div class="mini__icon" aria-hidden="true">🧑‍⚕️</div>
+              <div>
+                <div class="mini__title">Nursing Care</div>
+                <div class="mini__text">Injection • IV • Vitals • Dressing</div>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="mini__icon" aria-hidden="true">🏥</div>
+              <div>
+                <div class="mini__title">Personal ICU at Home</div>
+                <div class="mini__text">Complete setup with expert staff</div>
+              </div>
+            </div>
+
+            <div class="mini">
+              <div class="mini__icon" aria-hidden="true">🧘</div>
+              <div>
+                <div class="mini__title">Physiotherapy</div>
+                <div class="mini__text">Recovery and pain management</div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+            <p class="muted small">Tell us your requirement and we’ll help you choose the right care plan.</p>
+
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+              <a class="btn btn--primary" href="contact.html">Book Now</a>
+              <a class="btn btn--ghost" href="equipment.html">See Equipment</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Core Services -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Our Core Services</h2>
+          <p>We provide complete and compassionate care solutions.</p>
+        </div>
+        <div class="grid three">
+          <a class="card pad" href="services.html">
+            <img class="card__img" src="assets/nursing-care.jpg" alt="Nurse providing care at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🧑‍⚕️</div>
+            <h3>Nursing Care</h3>
+            <p class="muted">Professional nurses for injections, IVs, and post-operative care.</p>
+            <span class="link">Learn more →</span>
+          </a>
+          <a class="card pad" href="services.html">
+            <img class="card__img" src="assets/setup-icu-at-home.jpg" alt="ICU setup at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🏥</div>
+            <h3>Personal ICU at Home</h3>
+            <p class="muted">Complete ICU setup with expert staff for critical care.</p>
+            <span class="link">Learn more →</span>
+          </a>
+          <a class="card pad" href="services.html">
+            <img class="card__img" src="assets/physiotherapy.avif" alt="Physiotherapist providing care at home" loading="lazy" />
+            <div class="icon" aria-hidden="true">🧘</div>
+            <h3>Physiotherapy</h3>
+            <p class="muted">Experienced physiotherapists for recovery and pain management.</p>
+            <span class="link">Learn more →</span>
+          </a>
+        </div>
+        <div style="margin-top:12px; text-align:center;">
+          <a class="btn btn--ghost" href="services.html">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipment -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Medical Equipment to Rent/Buy</h2>
+          <p>High-quality, sanitized equipment for your home care needs.</p>
+        </div>
+        <div class="grid three">
+          <a class="card pad" href="equipment.html">
+            <img class="card__img" src="assets/ventilator.jpg" alt="Ventilator unit" loading="lazy" />
+            <div class="icon" aria-hidden="true">🫁</div>
+            <h3>Ventilator</h3>
+            <p class="muted">Reliable units for home critical care.</p>
+            <span class="link">View details →</span>
+          </a>
+          <a class="card pad" href="equipment.html">
+            <img class="card__img" src="assets/Nebulisers.webp" alt="Nebulizer device" loading="lazy" />
+            <div class="icon" aria-hidden="true">🌬️</div>
+            <h3>Nebulizer</h3>
+            <p class="muted">Safe respiratory support at home.</p>
+            <span class="link">View details →</span>
+          </a>
+          <a class="card pad" href="equipment.html">
+            <img class="card__img" src="assets/oximeter.webp" alt="Pulse oximeter" loading="lazy" />
+            <div class="icon" aria-hidden="true">🩸</div>
+            <h3>Pulse Oximeter</h3>
+            <p class="muted">Accurate SpO₂ and pulse monitoring.</p>
+            <span class="link">View details →</span>
+          </a>
+        </div>
+        <div style="margin-top:12px; text-align:center;">
+          <a class="btn btn--ghost" href="equipment.html">View All Equipment</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Why Choose Aastha Nursing Service</h2>
+          <p>Your trusted partner in home healthcare.</p>
+        </div>
+        <div class="grid four">
+          <div class="card pad">
+            <div class="icon" aria-hidden="true">❤️</div>
+            <h3>Compassionate Care</h3>
+            <p class="muted">We treat every patient with empathy and respect.</p>
+          </div>
+          <div class="card pad">
+            <div class="icon" aria-hidden="true">🎓</div>
+            <h3>Experienced Staff</h3>
+            <p class="muted">Certified and highly trained professionals.</p>
+          </div>
+          <div class="card pad">
+            <div class="icon" aria-hidden="true">💰</div>
+            <h3>Affordable Cost</h3>
+            <p class="muted">Premium care that fits your budget.</p>
+          </div>
+          <div class="card pad">
+            <div class="icon" aria-hidden="true">⏰</div>
+            <h3>24/7 Support</h3>
+            <p class="muted">Round-the-clock assistance for any need.</p>
+          </div>
+        </div>
+        <div class="callout" style="margin-top:20px;">
+          <div>
+            <h3>Ready to Get Started?</h3>
+            <p class="muted">Contact us for a free consultation and a personalized care plan.</p>
+          </div>
+          <div class="callout__actions">
+            <a class="btn btn--ghost" href="tel:+919310626469">Call Now</a>
+            <a class="btn btn--primary" href="contact.html">Book Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>What Families Say</h2>
+          <p>Real experiences from patients cared for at home.</p>
+        </div>
+        <div class="grid three">
+          <div class="card pad">
+            <p class="muted">“Quick response and very professional nursing support. My father recovered comfortably at home.”</p>
+            <div class="divider"></div>
+            <p><strong>Rahul S.</strong> • Noida</p>
+          </div>
+          <div class="card pad">
+            <p class="muted">“The team set up an ICU at home overnight. Compassionate and skilled staff throughout.”</p>
+            <div class="divider"></div>
+            <p><strong>Anita K.</strong> • Delhi</p>
+          </div>
+          <div class="card pad">
+            <p class="muted">“Physiotherapy sessions were excellent. Mobility improved in two weeks.”</p>
+            <div class="divider"></div>
+            <p><strong>Vikas M.</strong> • Ghaziabad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>FAQs</h2>
+          <p>Answers to common questions about care at home.</p>
+        </div>
+        <div class="grid three">
+          <div class="card pad">
+            <details>
+              <summary><strong>What services do you offer?</strong></summary>
+              <p class="muted">Nursing care, personal ICU at home, physiotherapy, post-operative care, and attendants.</p>
+            </details>
+          </div>
+          <div class="card pad">
+            <details>
+              <summary><strong>Do you provide 24/7 support?</strong></summary>
+              <p class="muted">Yes. Our team is available round the clock for urgent needs and ongoing care.</p>
+            </details>
+          </div>
+          <div class="card pad">
+            <details>
+              <summary><strong>How fast can a nurse be arranged?</strong></summary>
+              <p class="muted">In most cases within a few hours across Delhi NCR. Call for fastest response.</p>
+            </details>
+          </div>
+          <div class="card pad">
+            <details>
+              <summary><strong>Do you serve my area?</strong></summary>
+              <p class="muted">We cover Noida, Delhi, Ghaziabad, Faridabad, and Gurgaon. Check the Areas page for details.</p>
+            </details>
+          </div>
+          <div class="card pad">
+            <details>
+              <summary><strong>Do you provide equipment on rent?</strong></summary>
+              <p class="muted">Yes. Ventilators, medical beds, monitors and more. See the Equipment page.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--footer">
+          <span class="brand__mark" aria-hidden="true">+</span>
+          <span class="brand__name">Aastha Nursing Service</span>
+        </div>
+        <p class="muted">Home nursing & patient care services across Delhi NCR.</p>
+      </div>
+
+      <div class="footer__links">
+        <a href="services.html">Services</a>
+        <a href="equipment.html">Equipment</a>
+        <a href="areas.html">Areas</a>
+        <a href="why-us.html">Why Us</a>
+      </div>
+
+      <div class="footer__meta muted">
+        © <span id="year"></span> Aastha Nursing Service
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>

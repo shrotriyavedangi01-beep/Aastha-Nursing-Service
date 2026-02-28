@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Service Areas — Aastha Nursing Service</title>
+  <meta name="description" content="We serve Noida, Delhi, Ghaziabad, Faridabad and Gurgaon." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="fab" id="waFab" href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">
+    <span class="fab__icon" aria-hidden="true">💬</span><span class="fab__text">WhatsApp</span>
+  </a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html"><span class="brand__mark">+</span><span class="brand__name">Aastha Nursing Service</span></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="icon-btn nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+        <ul class="nav__menu" id="navMenu">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="services.html">Services</a></li>
+          <li><a class="nav__link" href="equipment.html">Equipment</a></li>
+          <li><a class="nav__link" href="areas.html">Areas</a></li>
+          <li><a class="nav__link" href="why-us.html">Why Us</a></li>
+          <li class="nav__cta"><a class="btn btn--primary" href="contact.html">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero__box">
+        <p class="breadcrumbs"><a href="index.html">Home</a> / Areas</p>
+        <h1 class="page-title">Service Areas</h1>
+        <p class="page-sub">We provide home nursing and patient care across Delhi NCR.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid five">
+          <div class="pillcard">Noida</div>
+          <div class="pillcard">Delhi</div>
+          <div class="pillcard">Ghaziabad</div>
+          <div class="pillcard">Faridabad</div>
+          <div class="pillcard">Gurgaon</div>
+        </div>
+
+        <div class="callout">
+          <div>
+            <h3>Not sure if we cover your location?</h3>
+            <p class="muted">Send your area on WhatsApp and we’ll confirm instantly.</p>
+          </div>
+          <div class="callout__actions">
+            <a class="btn btn--ghost" href="tel:+919310626469">Call 93106 26469</a>
+            <a class="btn btn--primary" href="contact.html">Message Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="brand brand--footer"><span class="brand__mark">+</span><span class="brand__name">Aastha Nursing Service</span></div>
+        <p class="muted">Home nursing & patient care services across Delhi NCR.</p>
+      </div>
+      <div class="footer__links">
+        <a href="services.html">Services</a><a href="equipment.html">Equipment</a><a href="areas.html">Areas</a><a href="why-us.html">Why Us</a>
+      </div>
+      <div class="footer__meta muted">© <span id="year"></span> Aastha Nursing Service</div>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
